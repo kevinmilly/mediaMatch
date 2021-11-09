@@ -11,7 +11,6 @@ import * as fromMovie from './reducers/movie.reducer';
 
 
 export interface State {
-
   [fromMovie.moviesFeatureKey]: fromMovie.State;
 }
 
