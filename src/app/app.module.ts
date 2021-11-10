@@ -10,11 +10,15 @@ import { environment } from '../environments/environment';
 import * as fromMovie from './store/reducers/movie.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { MovieEffects } from './store/effects/effects/movie.effects';
+import { PersonalityMatchComponent } from './personality-match/personality-match.component';
+import { SuggestedMediaComponent } from './suggested-media/suggested-media.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonalityMatchComponent,
+    SuggestedMediaComponent
   ],
   imports: [
     BrowserModule,
